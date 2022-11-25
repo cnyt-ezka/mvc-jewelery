@@ -1,13 +1,8 @@
-﻿using System.Linq;
-using DG.Tweening;
-using MVC.Base.Runtime.Abstract.Model;
+﻿using MVC.Base.Runtime.Abstract.Model;
 using MVC.Base.Runtime.Concrete.Controller;
-using MVC.Base.Runtime.Extensions;
 using Runtime.Data.ValueObject.Source;
-using Runtime.Enums.Source;
 using Runtime.Models;
 using UnityEngine;
-using Transform = System.Security.Cryptography.Xml.Transform;
 
 namespace Runtime.Controller.Source
 {
@@ -16,11 +11,11 @@ namespace Runtime.Controller.Source
         [Inject] private IPlayerModel _player { get; set; }
         [Inject] private IPoolModel _pool { get; set; }
         [Inject] private Transform _trashTarget { get; set; }
-        
+
         public override void Execute()
         {
             Debug.Log("//=> TrashProductActivatedCommand");
-            
+
             var currentLevel = _player.GetLevel();
 
             /*
