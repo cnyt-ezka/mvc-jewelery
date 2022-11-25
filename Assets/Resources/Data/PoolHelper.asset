@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d236eefea5f4fbbac55caa0364d66c8, type: 3}
+  m_Name: PoolHelper
+  m_EditorClassIdentifier: 
+  List:
+  - Key: 1
+    Count: 10
+    Prefab: {fileID: 4900471801407767165, guid: 898b92ae58143bc418e6f06c967d5222,
+      type: 3}
+  - Key: 2
+    Count: 1
+    Prefab: {fileID: 2313758793300029992, guid: fab3145725315084cb30da936e509144,
+      type: 3}
+  - Key: 3
+    Count: 1
+    Prefab: {fileID: 4449358722629826395, guid: ed63c8dff29a7de43b4726f7826447bd,
+      type: 3}
+  - Key: 5
+    Count: 1
+    Prefab: {fileID: 8920619993367280597, guid: e2e7c1ff9471dd547bdbf311b54f2d04,
+      type: 3}
+  - Key: 7
+    Count: 1
+    Prefab: {fileID: 4535095300947577808, guid: 276a8b6966717734b8d059f6cca7d3ab,
+      type: 3}
+  - Key: 13
+    Count: 1
+    Prefab: {fileID: 7320081583422282697, guid: 558983c24077bd9478cf811911603b99,
+      type: 3}
+  - Key: 10
+    Count: 1
+    Prefab: {fileID: 6653799355123036610, guid: 9519f300ee77b364f949400f07b2889b,
+      type: 3}
+  - Key: 12
+    Count: 1
+    Prefab: {fileID: 6653799355123036610, guid: 19b6dff9e44971e47b44317ce02fd92c,
+      type: 3}
+  - Key: 11
+    Count: 1
+    Prefab: {fileID: 6653799355123036610, guid: eb837912a5e5d64448cdb5fb586204fe,
+      type: 3}
+  - Key: 14
+    Count: 1
+    Prefab: {fileID: 6653799355123036610, guid: 77be10b073574c648990be8f8c8e0c20,
+      type: 3}
+  - Key: 9
+    Count: 2
+    Prefab: {fileID: 2554524850913419412, guid: 983616d54453c754698bebaba14535ac,
+      type: 3}
+  - Key: 19
+    Count: 2
+    Prefab: {fileID: 2554524850913419412, guid: 00ac6265f6823754d8af303c7188aef8,
+      type: 3}
+  - Key: 4
+    Count: 3
+    Prefab: {fileID: 5231979647960334006, guid: 179c5a4c3f7dfff4194078306d826e59,
+      type: 3}
+  - Key: 6
+    Count: 3
+    Prefab: {fileID: 5231979647960334006, guid: 79687f44a0f837a41b2a8446bc676074,
+      type: 3}
+  - Key: 8
+    Count: 2
+    Prefab: {fileID: 5231979647960334006, guid: c8072116638dceb4c81b75e4e4ae8ced,
+      type: 3}
+  - Key: 15
+    Count: 3
+    Prefab: {fileID: 5231979647960334006, guid: 32bb73a38e60ef341a7d611dbc2605bd,
+      type: 3}
+  - Key: 16
+    Count: 3
+    Prefab: {fileID: 5231979647960334006, guid: 571dd161e603865488b92481cb3c72f3,
+      type: 3}
+  - Key: 17
+    Count: 3
+    Prefab: {fileID: 5231979647960334006, guid: 0e181c48152091d459f0f1e66980be11,
+      type: 3}
+  - Key: 18
+    Count: 3
+    Prefab: {fileID: 5231979647960334006, guid: 623ad6ae232786c4f9e79fe054799b02,
+      type: 3}
+  _projectResourcesPath: Assets/Scripts/Runtime/Enums

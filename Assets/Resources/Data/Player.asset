@@ -1,0 +1,1070 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cb06561eeb619d44b58f527ef6a7b11, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  VO:
+    Currency:
+      Soft: 878718
+    IsNewLevel: 0
+    CurrentLevelIndex: 1
+    Level:
+      IsRuntimeData: 1
+      LevelName: Design Level 1
+      EnvironmentScene: Environment
+      SourceContainerStartPos: {x: 0, y: 0, z: 0}
+      MainCharacter:
+        IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: -3.4, y: 0, z: -2}
+        Rotation: {x: 0, y: 180, z: 0}
+        Scale: {x: 0, y: 0, z: 0}
+        ID: 1
+        Movement:
+          MaxMovementSpeed: 2
+          CurrentMovementSpeed: 2
+        Stacker:
+          IsRuntimeData: 1
+          CurrentGradeIndex: 0
+          StackGrades:
+          - IsRuntimeData: 1
+            Type: 1048575
+            MaxCount: 1
+            TimeInterval: 0.2
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 0.5, y: 1.5}
+              GridCount: {x: 1, y: 4}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          - IsRuntimeData: 1
+            Type: 1048575
+            MaxCount: 2
+            TimeInterval: 0.2
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 0.5, y: 1.5}
+              GridCount: {x: 1, y: 4}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          - IsRuntimeData: 1
+            Type: 1048575
+            MaxCount: 3
+            TimeInterval: 0.2
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 0.5, y: 1.5}
+              GridCount: {x: 1, y: 4}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+        CurrentSpeedGradeIndex: 0
+        SpeedUpgrades:
+        - Price: 0
+          Modifier: 2
+        - Price: 0
+          Modifier: 2.5
+        - Price: 0
+          Modifier: 3
+        CurrentIncomeGradeIndex: 0
+        IncomeUpgrades:
+        - Price: 0
+          Modifier: 1
+        - Price: 0
+          Modifier: 1.2
+        - Price: 0
+          Modifier: 1.5
+      ActivationAreas: []
+      ProcessorAreas:
+      - IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: -4.5, y: 0, z: -3.25}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 0, y: 0, z: 0}
+        ID: 2
+        IsVisible: 1
+        IsInstalled: 1
+        InstallationCost:
+          IsRuntimeData: 1
+          Type: 0
+          MaxAmount: 10
+          CurrentAmount: 0
+          Time: 1
+        InstallationResult: 
+        CurrentGradeIndex: 0
+        IsUpgrader: 0
+        Upgrades:
+        - IsRuntimeData: 1
+          Type: 1
+          MaxAmount: 10
+          CurrentAmount: 0
+          Time: 1
+        IsProducer: 1
+        ProductionGrades:
+        - IsRuntimeData: 1
+          NeedSource: 0
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 1
+            MaxCount: 10
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 0.1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 1
+            MaxAmount: 10
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 1
+            MaxCount: 2
+            TimeInterval: 0.5
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 0, y: 0.75}
+              GridCount: {x: 1, y: 2}
+              HeightInterval: 1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems:
+            - IsRuntimeData: 1
+              Obj: {fileID: 0}
+              Position: {x: 0, y: 0, z: 0}
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+              Type: 1
+              Amount: 1
+            - IsRuntimeData: 1
+              Obj: {fileID: 0}
+              Position: {x: 0, y: 0, z: 0}
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+              Type: 1
+              Amount: 1
+            TempStackCount: 2
+      - IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: -3.4, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 1, y: 1, z: 1}
+        ID: 3
+        IsVisible: 1
+        IsInstalled: 1
+        InstallationCost:
+          IsRuntimeData: 1
+          Type: 0
+          MaxAmount: 10
+          CurrentAmount: 0
+          Time: 1
+        InstallationResult: 
+        CurrentGradeIndex: 0
+        IsUpgrader: 1
+        Upgrades:
+        - IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 500
+          CurrentAmount: 0
+          Time: 0.05
+        IsProducer: 1
+        ProductionGrades:
+        - IsRuntimeData: 1
+          NeedSource: 1
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 1
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 1
+            MaxAmount: 1
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 2
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+        - IsRuntimeData: 1
+          NeedSource: 1
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 1
+            MaxCount: 2
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.5
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 1
+            MaxAmount: 1
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 2
+            MaxCount: 2
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.5
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+      - IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: 0.2, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 1, y: 1, z: 1}
+        ID: 4
+        IsVisible: 1
+        IsInstalled: 1
+        InstallationCost:
+          IsRuntimeData: 1
+          Type: 0
+          MaxAmount: 10
+          CurrentAmount: 0
+          Time: 1
+        InstallationResult: 
+        CurrentGradeIndex: 0
+        IsUpgrader: 1
+        Upgrades:
+        - IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 500
+          CurrentAmount: 0
+          Time: 0.05
+        IsProducer: 1
+        ProductionGrades:
+        - IsRuntimeData: 1
+          NeedSource: 1
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 2
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 2
+            MaxAmount: 1
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 4
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+        - IsRuntimeData: 1
+          NeedSource: 1
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 2
+            MaxCount: 2
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.5
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 2
+            MaxAmount: 1
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 4
+            MaxCount: 2
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.5
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+      - IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: 2.7, y: 0, z: 1.45}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 1, y: 1, z: 1}
+        ID: 5
+        IsVisible: 1
+        IsInstalled: 1
+        InstallationCost:
+          IsRuntimeData: 1
+          Type: 4
+          MaxAmount: 100
+          CurrentAmount: 0
+          Time: 1
+        InstallationResult: 
+        CurrentGradeIndex: 0
+        IsUpgrader: 0
+        Upgrades: []
+        IsProducer: 1
+        ProductionGrades:
+        - IsRuntimeData: 1
+          NeedSource: 1
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 4
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 4
+            MaxAmount: 1
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 0
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+      - IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: 4.5, y: 0, z: 1.45}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 1, y: 1, z: 1}
+        ID: 9
+        IsVisible: 1
+        IsInstalled: 0
+        InstallationCost:
+          IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 300
+          CurrentAmount: 0
+          Time: 1
+        InstallationResult: 
+        CurrentGradeIndex: 0
+        IsUpgrader: 0
+        Upgrades: []
+        IsProducer: 1
+        ProductionGrades:
+        - IsRuntimeData: 1
+          NeedSource: 1
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 4
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 4
+            MaxAmount: 1
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 0
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+      - IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: -0.5, y: 0, z: -4}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 1, y: 1, z: 1}
+        ID: 6
+        IsVisible: 1
+        IsInstalled: 1
+        InstallationCost:
+          IsRuntimeData: 1
+          Type: 0
+          MaxAmount: 10
+          CurrentAmount: 0
+          Time: 1
+        InstallationResult: 
+        CurrentGradeIndex: 0
+        IsUpgrader: 1
+        Upgrades:
+        - IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 100
+          CurrentAmount: 0
+          Time: 1
+        - IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 250
+          CurrentAmount: 0
+          Time: 1
+        - IsRuntimeData: 1
+          Type: 0
+          MaxAmount: 500
+          CurrentAmount: 0
+          Time: 1
+        IsProducer: 0
+        ProductionGrades: []
+      - IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: 0.5, y: 0, z: -4}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 1, y: 1, z: 1}
+        ID: 7
+        IsVisible: 1
+        IsInstalled: 1
+        InstallationCost:
+          IsRuntimeData: 1
+          Type: 0
+          MaxAmount: 10
+          CurrentAmount: 0
+          Time: 1
+        InstallationResult: 
+        CurrentGradeIndex: 0
+        IsUpgrader: 1
+        Upgrades:
+        - IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 100
+          CurrentAmount: 0
+          Time: 1
+        - IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 250
+          CurrentAmount: 0
+          Time: 1
+        - IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 500
+          CurrentAmount: 0
+          Time: 1
+        IsProducer: 0
+        ProductionGrades: []
+      - IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: 1.5, y: 0, z: -4}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 1, y: 1, z: 1}
+        ID: 8
+        IsVisible: 1
+        IsInstalled: 1
+        InstallationCost:
+          IsRuntimeData: 1
+          Type: 0
+          MaxAmount: 10
+          CurrentAmount: 0
+          Time: 1
+        InstallationResult: 
+        CurrentGradeIndex: 0
+        IsUpgrader: 1
+        Upgrades:
+        - IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 100
+          CurrentAmount: 0
+          Time: 1
+        - IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 250
+          CurrentAmount: 0
+          Time: 1
+        - IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 500
+          CurrentAmount: 0
+          Time: 1
+        IsProducer: 0
+        ProductionGrades: []
+      - IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: 5.2, y: 0, z: -2}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 1, y: 1, z: 1}
+        ID: 10
+        IsVisible: 1
+        IsInstalled: 1
+        InstallationCost:
+          IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 10
+          CurrentAmount: 0
+          Time: 0.1
+        InstallationResult: 02000000
+        CurrentGradeIndex: 0
+        IsUpgrader: 1
+        Upgrades:
+        - IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 1000
+          CurrentAmount: 0
+          Time: 0.1
+        IsProducer: 0
+        ProductionGrades: []
+      - IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: 7, y: 0, z: -3.25}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 0, y: 0, z: 0}
+        ID: 2
+        IsVisible: 1
+        IsInstalled: 0
+        InstallationCost:
+          IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 250
+          CurrentAmount: 0
+          Time: 1
+        InstallationResult: 0b000000
+        CurrentGradeIndex: 0
+        IsUpgrader: 0
+        Upgrades:
+        - IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 10
+          CurrentAmount: 0
+          Time: 1
+        IsProducer: 1
+        ProductionGrades:
+        - IsRuntimeData: 1
+          NeedSource: 0
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 1
+            MaxCount: 10
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 0.1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 1
+            MaxAmount: 10
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 1024
+            MaxCount: 2
+            TimeInterval: 0.5
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 0, y: 0.75}
+              GridCount: {x: 1, y: 2}
+              HeightInterval: 1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+      - IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: 8.1, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 1, y: 1, z: 1}
+        ID: 11
+        IsVisible: 1
+        IsInstalled: 0
+        InstallationCost:
+          IsRuntimeData: 1
+          Type: 0
+          MaxAmount: 300
+          CurrentAmount: 0
+          Time: 1
+        InstallationResult: 04000000
+        CurrentGradeIndex: 0
+        IsUpgrader: 1
+        Upgrades:
+        - IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 500
+          CurrentAmount: 0
+          Time: 0.05
+        IsProducer: 1
+        ProductionGrades:
+        - IsRuntimeData: 1
+          NeedSource: 1
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 1024
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 1024
+            MaxAmount: 1
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 2048
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+        - IsRuntimeData: 1
+          NeedSource: 1
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 1024
+            MaxCount: 2
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.5
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 1024
+            MaxAmount: 1
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 2048
+            MaxCount: 2
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.5
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+      - IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: 11.7, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 1, y: 1, z: 1}
+        ID: 4
+        IsVisible: 1
+        IsInstalled: 0
+        InstallationCost:
+          IsRuntimeData: 1
+          Type: 0
+          MaxAmount: 300
+          CurrentAmount: 0
+          Time: 1
+        InstallationResult: 0c000000
+        CurrentGradeIndex: 0
+        IsUpgrader: 1
+        Upgrades:
+        - IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 500
+          CurrentAmount: 0
+          Time: 0.05
+        IsProducer: 1
+        ProductionGrades:
+        - IsRuntimeData: 1
+          NeedSource: 1
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 2048
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 2048
+            MaxAmount: 1
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 4096
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+        - IsRuntimeData: 1
+          NeedSource: 1
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 2048
+            MaxCount: 2
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.5
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 2048
+            MaxAmount: 1
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 4096
+            MaxCount: 2
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.5
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+      - IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: 11.7, y: 0, z: -3}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 1, y: 1, z: 1}
+        ID: 12
+        IsVisible: 1
+        IsInstalled: 0
+        InstallationCost:
+          IsRuntimeData: 1
+          Type: 0
+          MaxAmount: 250
+          CurrentAmount: 0
+          Time: 1
+        InstallationResult: 
+        CurrentGradeIndex: 0
+        IsUpgrader: 1
+        Upgrades:
+        - IsRuntimeData: 1
+          Type: 0
+          MaxAmount: 500
+          CurrentAmount: 0
+          Time: 0.05
+        IsProducer: 1
+        ProductionGrades:
+        - IsRuntimeData: 1
+          NeedSource: 1
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 4096
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 4096
+            MaxAmount: 1
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 8192
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+        - IsRuntimeData: 1
+          NeedSource: 1
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 4096
+            MaxCount: 2
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 4096
+            MaxAmount: 1
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 8192
+            MaxCount: 2
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+      - IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: 14.2, y: 0, z: 1.45}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 1, y: 1, z: 1}
+        ID: 13
+        IsVisible: 1
+        IsInstalled: 0
+        InstallationCost:
+          IsRuntimeData: 1
+          Type: 4
+          MaxAmount: 300
+          CurrentAmount: 0
+          Time: 1
+        InstallationResult: 
+        CurrentGradeIndex: 0
+        IsUpgrader: 0
+        Upgrades: []
+        IsProducer: 1
+        ProductionGrades:
+        - IsRuntimeData: 1
+          NeedSource: 1
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 8192
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 8192
+            MaxAmount: 1
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 0
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+      - IsRuntimeData: 1
+        Obj: {fileID: 0}
+        Position: {x: 16, y: 0, z: 1.45}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 1, y: 1, z: 1}
+        ID: 13
+        IsVisible: 1
+        IsInstalled: 0
+        InstallationCost:
+          IsRuntimeData: 1
+          Type: 524288
+          MaxAmount: 300
+          CurrentAmount: 0
+          Time: 1
+        InstallationResult: 
+        CurrentGradeIndex: 0
+        IsUpgrader: 0
+        Upgrades: []
+        IsProducer: 1
+        ProductionGrades:
+        - IsRuntimeData: 1
+          NeedSource: 1
+          SourceStack:
+          - IsRuntimeData: 1
+            Type: 8192
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0
+          RequirementsPerProduct:
+          - IsRuntimeData: 1
+            Type: 8192
+            MaxAmount: 1
+            CurrentAmount: 0
+            Time: 1
+          ProductStack:
+            IsRuntimeData: 1
+            Type: 0
+            MaxCount: 1
+            TimeInterval: 1
+            Alignment:
+              IsRuntimeData: 1
+              Size: {x: 1, y: 1}
+              GridCount: {x: 1, y: 1}
+              HeightInterval: 0.1
+              Rotation: {x: 0, y: 0, z: 0}
+              Scale: {x: 1, y: 1, z: 1}
+            StackableItems: []
+            TempStackCount: 0

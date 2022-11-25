@@ -1,0 +1,1 @@
+namespace Runtime.Enums.Source{    public enum AssetID    {	    DemoArea,	    Character,	    StoneSpawner,		HammerProcessorArea,		LaserProcessorArea,		RingShopArea,		SpeedUpgrade,		CapacityUpgrade,		IncomeUpgrade,		RingShopArea2,		Gate,		HammerProcessorArea2,		PolishArea,		NecklaceArea,		//*ADDITION*//    }}
